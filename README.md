@@ -14,4 +14,5 @@ LinkStak.cs
 Push 메소드는 데이터를 인자로 받아 새로운 노드를 생성하고, 스택이 비어있다면 새로운 노드를 top에 연결합니다. 스택이 비어있지 않다면 새로운 노드를 top에 연결하고, top을 새로운 노드로 갱신합니다.
 Pop 메소드는 스택이 비어있으면 "스택이 비었습니다" 메시지를 출력하고, -1을 반환합니다. 스택이 비어있지 않으면 top 노드의 데이터를 반환하고, top을 다음 노드로 갱신합니다.
 IsEmpty 메소드는 top이 null인지 여부를 반환합니다.
+실행결과는 아래와 같습니다
 ![LinkStack](https://github.com/KS2019775054/OOP/blob/main/LinkStack.png?raw=true)
