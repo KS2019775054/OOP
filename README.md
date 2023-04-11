@@ -16,3 +16,11 @@ Pop 메소드는 스택이 비어있으면 "스택이 비었습니다" 메시지
 IsEmpty 메소드는 top이 null인지 여부를 반환합니다.
 실행결과는 아래와 같습니다
 ![LinkStack](https://github.com/KS2019775054/OOP/blob/main/LinkStack.png?raw=true)
+
+
+changebin.c
+>위 코드에서는 unsigned int 자료형을 사용하여 16진수 값을 저장합니다. scanf() 함수를 사용하여 사용자로부터 16진수 값을 입력받습니다. %x 서식지정자를 사용하여 16진수 값을 입력받습니다.
+이후, for 루프를 사용하여 16진수 값을 2진수로 변환합니다. 먼저, i는 31부터 시작하여 0까지 1씩 감소하며, hex >> i 연산은 hex 값을 i 만큼 비트 오른쪽으로 시프트합니다. 이 때, & 연산을 사용하여 오른쪽에서부터 하나씩 값을 추출합니다. 이 값은 0 또는 1이므로, 2진수로 변환된 값이 됩니다.
+i는 unsigned int 자료형 크기에 맞춰 0부터 31로 역순 설정했습니다.
+출력 결과는 다음과 같습니다.
+![LinkStack](https://github.com/KS2019775054/OOP/blob/main/changebin.png?raw=true)
